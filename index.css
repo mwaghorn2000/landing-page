@@ -4,7 +4,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
 }
 
 .hero {
@@ -12,6 +11,7 @@ body {
     flex-direction: column;
     padding: 0 150px;
     background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .header {
@@ -74,12 +74,12 @@ button {
     font-weight: bold;
 }
 
-.action {
+.info-section {
     color: black;
     text-align: center;
 }
 
-.action .title {
+.info-section .title {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -91,6 +91,7 @@ button {
     justify-content: center;
     gap: 50px;
     margin-bottom: 102px;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -99,13 +100,39 @@ button {
     justify-items: center;
     flex-wrap: wrap;
     width: 150px;
-
 }
 
-.action .img {
+.info-section .img {
     border: 4px #3882F6 solid;
     border-radius: 8px;
     height: 150px;
     width: 150px;
     margin-bottom: 10px;
+}
+
+.quote-section {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #E5E7EB;
+}
+
+.quote, .quote-author {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: bold;
 }
