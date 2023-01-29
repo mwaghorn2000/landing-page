@@ -73,3 +73,39 @@ button {
     border: 0;
     font-weight: bold;
 }
+
+.action {
+    color: black;
+    text-align: center;
+}
+
+.action .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 30px;
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 102px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    width: 150px;
+
+}
+
+.action .img {
+    border: 4px #3882F6 solid;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
