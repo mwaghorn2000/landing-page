@@ -142,6 +142,45 @@ button {
     font-weight: bold;
 }
 
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color:#e5e7eb;
+    padding: 25px 50px;
+    margin: 50px;
+    border-radius: 15px;
+    gap:100px;
+    flex-wrap: wrap;
+}
+
+.action-wrapper span {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#action-button {
+    border: #e5e7eb 1px solid;
+}
+
+.footer {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#e5e7eb;
+    background-color:#1f2937;
+}
+
+
+
 
 
 
